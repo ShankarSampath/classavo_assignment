@@ -13,8 +13,3 @@ Basic Cypress tests using Page Object Model and JSON test data.
 2. Update selectors in `pageObjects` to match your app.
 3. `npm i`
 4. `npx cypress open` (GUI) or `npx cypress run` (headless).
-
-## Notes
-- Uses fixtures (`cypress/fixtures/*.json`) for users and course data.
-- Keep it simple: no complex framework, only POM + JSON.
-- I mainly work with Python/Pytest; this repo shows I'm learning Cypress with best practices.
