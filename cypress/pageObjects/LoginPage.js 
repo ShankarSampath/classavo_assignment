@@ -1,0 +1,7 @@
+class LoginPage {
+  visit() { cy.visit("/login"); }
+  typeEmail(v) { cy.get('[data-testid="email"]').clear().type(v); }
+  typePassword(v) { cy.get('[data-testid="password"]').clear().type(v); }
+  submit() { cy.get('[data-testid="login-btn"]').click(); }
+}
+export default new LoginPage();

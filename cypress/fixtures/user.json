@@ -1,0 +1,4 @@
+{
+  "validUser": { "email": "student@test.com", "password": "P@ssw0rd!" },
+  "unverifiedUser": { "email": "newuser@test.com", "password": "P@ssw0rd!" }
+}

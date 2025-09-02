@@ -1,0 +1,4 @@
+{
+  "validCourse": { "code": "CS101", "password": "joinme" },
+  "invalidCourse": { "code": "CS999", "password": "wrong" }
+}
